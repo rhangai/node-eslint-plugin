@@ -34,7 +34,6 @@ module.exports = {
 		extends: [
 			'eslint-config-airbnb-base',
 			'prettier',
-			'prettier/vue',
 			'plugin:vue/recommended'
 		],
 		env: {
@@ -60,7 +59,6 @@ module.exports = {
 		extends: [
 			'eslint-config-airbnb-typescript/base',
 			'prettier',
-			'prettier/vue',
 			'prettier/@typescript-eslint',
 			'plugin:vue/recommended'
 		],
